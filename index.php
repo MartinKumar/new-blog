@@ -1,8 +1,9 @@
 <?php
 echo "create new blog";
 
-echo "Thanks";
+echo "Thanks<br>";
 
-echo date('d/M/Y h:i:s a', time());
+date_default_timezone_set("Asia/Calcutta"); 
+echo date('d/m/Y h:i:s A', time());
 
 ?>
